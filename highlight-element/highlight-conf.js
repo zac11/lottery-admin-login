@@ -14,7 +14,7 @@ exports.config={
         print: function () {
         }
     },
-    specs:["lottery-login-stat-spec.js","lottery-login-spec.js"],
+    specs:["highlightelement-spec.js"],
     useAllAngular2AppRoots:true,
     capabilities: {
     browserName: 'chrome',

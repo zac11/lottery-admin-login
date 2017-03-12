@@ -1,4 +1,5 @@
 
+
 describe('Getting User to login', function() {
     beforeEach(function(){
 		browser.get("http://lotteryadmin.sia.co.in/#/");
@@ -13,11 +14,11 @@ describe('Getting User to login', function() {
       browser.actions().mouseMove(element(by.css('.user2'))).click().sendKeys("ravi123").perform();
 
       element(by.buttonText("Log in")).click();
-      browser.sleep(30);
-      browser.waitForAngular();
+      browser.sleep(100);
+      //browser.waitForAngular();
       
     });
-        
-    
+
+
 });
     
